@@ -1,0 +1,71 @@
+:root{
+    --orange:#D1884F;
+    --dark-blue:#008AAA;
+    --blue:#3BBADB;
+}
+@font-face {
+    font-family: poppins-light;
+    src: url("Poppins-Light.ttf");
+}
+
+body{
+    box-sizing: border-box;
+}
+.navbar{
+    font-family: "poppins-light";
+    display: flex;
+    justify-content:end;
+    padding: 20px;
+    padding-right: 80px;
+    
+}
+.navtext{
+    display: inline;
+    margin-left: 5px;
+}
+.nav-item{
+margin: 10px;
+margin-right: 20px;
+transition: 1000ms;
+}
+.nav-item:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+#home{
+    color:var(--orange);
+}
+.main{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.welcome{
+    font-family: "poppins-light";
+    color:var(--blue);
+    
+}
+.image-card{
+    float:right;
+    width: 267.711px;
+    height: 279.545px;
+    transform: rotate(-1deg);
+    flex-shrink: 0;
+    display: inline;
+   margin-right: -250px;
+   margin-top: 10px;
+
+}
+.image{
+    margin-right: 100px;
+    float:right;
+    
+    display: inline;
+    width: 281px;
+    height: 291px;
+    flex-shrink: 0;
+    
+}
+.svg{
+    background-image: url("person.jpg");
+}
+
